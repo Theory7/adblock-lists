@@ -17,28 +17,3 @@ youtube.com##ytd-recognition-shelf-renderer
 www.reddit.com##xpromo-nsfw-blocking-modal,slot+.prompt 
 www.reddit.com##[style*="blur"]:style(filter:none!important;) 
 
-
-
-
-
-
-
-||accounts.google.com/gsi/*$xhr,script,3p
-@@||*^$generichide
-youtube.com##ytd-button-renderer.ytd-download-button-renderer
-www.youtube.com##yt-button-view-model:has([aria-label="Thanks"], [aria-label="Clip"])
-youtube.com###sponsor-button
-www.youtube.com##ytd-search ytd-item-section-renderer ytd-shelf-renderer
-www.youtube.com##ytd-search ytd-item-section-renderer ytd-horizontal-card-list-renderer
-! YT - Hide Sections everywhere
-youtube.com##ytd-rich-section-renderer
-youtube.com##.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
-www.youtube.com##[tab-title="Store"]
-youtube.com##ytd-recognition-shelf-renderer
-||www.redditstatic.com/shreddit/en-US/xpromo-nsfw-blocking-modal-desktop-*.js
-||www.redditstatic.com/shreddit/en-US/icon-nsfw-outline-*.js
-||www.redditstatic.com/shreddit/en-US/xpromo-nsfw-blocking-modal-*.js
-||www.redditstatic.com/shreddit/en-US/nsfw-blocking-*.js
-www.reddit.com##xpromo-nsfw-blocking-modal,slot+.prompt 
-www.reddit.com##[style*="blur"]:style(filter:none!important;) 
-
