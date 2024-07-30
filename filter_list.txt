@@ -16,4 +16,11 @@ youtube.com##ytd-recognition-shelf-renderer
 ||www.redditstatic.com/shreddit/en-US/nsfw-blocking-*.js
 www.reddit.com##xpromo-nsfw-blocking-modal,slot+.prompt 
 www.reddit.com##[style*="blur"]:style(filter:none!important;) 
+www.reddit.com##pdp-right-rail
+www.reddit.com###get-app
+www.reddit.com###right-sidebar-container > div.px-md.xs\:px-0
+www.reddit.com##.block.h-\[210px\].nd\:visible.nd\:overflow-hidden
+www.reddit.com##award-button
+www.reddit.com##button.button.border-md[data-testid="award"]
+www.reddit.com###expand-user-drawer-button
 
