@@ -1,4 +1,5 @@
 ||accounts.google.com/gsi/*$xhr,script,3p
+@@||*^$generichide
 youtube.com##ytd-button-renderer.ytd-download-button-renderer
 www.youtube.com##yt-button-view-model:has([aria-label="Thanks"], [aria-label="Clip"])
 youtube.com###sponsor-button
