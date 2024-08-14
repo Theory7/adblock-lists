@@ -1,5 +1,4 @@
 ||accounts.google.com/gsi/*$xhr,script,3p
-@@||*^$generichide
 youtube.com##ytd-button-renderer.ytd-download-button-renderer
 www.youtube.com##yt-button-view-model:has([aria-label="Thanks"], [aria-label="Clip"])
 youtube.com###sponsor-button
@@ -10,11 +9,5 @@ youtube.com##ytd-rich-section-renderer
 youtube.com##.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
 www.youtube.com##[tab-title="Store"]
 youtube.com##ytd-recognition-shelf-renderer
-www.reddit.com##pdp-right-rail
-www.reddit.com###get-app
-www.reddit.com###right-sidebar-container > div.px-md.xs\:px-0
-www.reddit.com##.block.h-\[210px\].nd\:visible.nd\:overflow-hidden
-www.reddit.com##award-button
-www.reddit.com##button.button.border-md[data-testid="award"]
-www.reddit.com###expand-user-drawer-button
+www.youtube.com##.yt-flexible-actions-view-model-wiz__action:has(button[aria-label="Join this channel"])
 
