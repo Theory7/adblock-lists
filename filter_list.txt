@@ -11,4 +11,46 @@ youtube.com##.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
 www.youtube.com##[tab-title="Store"]
 youtube.com##ytd-recognition-shelf-renderer
 www.youtube.com##.yt-flexible-actions-view-model-wiz__action:has(button[aria-label="Join this channel"])
+youtube.com##ytd-shelf-renderer:has(span#title.style-scope.ytd-shelf-renderer:has-text(/members[\s-]*only/i))
+youtube.com##ytd-browse[page-subtype="channels"] ytd-grid-video-renderer .badge-style-type-members-only:upward(ytd-grid-video-renderer)
+/annotations_module.js$script,xhr,important,domain=youtube.com
+! Aug 31, 2024 https://www.youtube.com
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:has-text("More from YouTube")
+www.youtube.com##ytd-guide-signin-promo-renderer.ytd-guide-renderer.style-scope
+! Aug 31, 2024 https://www.youtube.com
+www.youtube.com##.ytp-button.ytp-next-button
+www.youtube.com##.ytp-button.ytp-back-button
+! Aug 31, 2024 https://www.youtube.com
+www.youtube.com##.ytd-comments.style-scope
+www.youtube.com##.yt-related-chip-cloud-renderer.style-scope > .yt-chip-cloud-renderer.style-scope
+www.youtube.com##.ytd-watch-next-secondary-results-renderer.style-scope
+! Sep 1, 2024 https://www.youtube.com
+www.youtube.com##.ytp-endscreen-next.ytp-button
+www.youtube.com##.ytp-endscreen-previous.ytp-button
+www.youtube.com##.ytp-endscreen-content
+! Sep 2, 2024 https://www.youtube.com
+www.youtube.com###chat
+www.youtube.com##[tab-title="Community"]
+www.youtube.com##[tab-title="Posts"]
+! Sep 23, 2024 https://www.youtube.com
+www.youtube.com##.ytd-item-section-renderer.style-scope > .ytd-shelf-renderer.style-scope:has-text("For You")
+||www.redditstatic.com/shreddit/en-US/xpromo-nsfw-blocking-modal-desktop-*.js
+||www.redditstatic.com/shreddit/en-US/icon-nsfw-outline-*.js
+||www.redditstatic.com/shreddit/en-US/xpromo-nsfw-blocking-modal-*.js
+||www.redditstatic.com/shreddit/en-US/nsfw-blocking-*.js
+www.reddit.com##xpromo-nsfw-blocking-modal,slot+.prompt 
+www.reddit.com##[style*="blur"]:style(filter:none!important;)
+www.reddit.com##pdp-right-rail
+www.reddit.com###get-app
+www.reddit.com###right-sidebar-container > div.px-md.xs\:px-0
+www.reddit.com##.block.h-\[210px\].nd\:visible.nd\:overflow-hidden
+www.reddit.com##award-button
+www.reddit.com##button.button.border-md[data-testid="award"]
+www.reddit.com###expand-user-drawer-button
+! Oct 4, 2024 https://www.reddit.com
+www.reddit.com##reddit-recent-pages
+reddit.com###reddit-trending-searches-partial-container
+reddit.com##:matches-path(/media?)zoomable-img:style(height: auto !important; margin: auto !important; top: 0 !important; padding: 0 !important;)
+reddit.com##:matches-path(/media?)img:others()
+reddit.com##:matches-path(/media?) :root:style(background-color: black !important;)
 
