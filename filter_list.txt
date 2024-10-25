@@ -55,4 +55,5 @@ reddit.com##:matches-path(/media?)img:others()
 reddit.com##:matches-path(/media?) :root:style(background-color: black !important;)
 ! YT Channels - Hide the Shorts tab
 www.youtube.com##[tab-title="Shorts"]
+www.reddit.com##post-bottom-bar
 
