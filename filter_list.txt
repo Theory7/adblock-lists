@@ -21,7 +21,6 @@ www.youtube.com##ytd-guide-signin-promo-renderer.ytd-guide-renderer.style-scope
 www.youtube.com##.ytp-button.ytp-next-button
 www.youtube.com##.ytp-button.ytp-back-button
 ! Aug 31, 2024 https://www.youtube.com
-www.youtube.com##.ytd-comments.style-scope
 www.youtube.com##.yt-related-chip-cloud-renderer.style-scope > .yt-chip-cloud-renderer.style-scope
 www.youtube.com##.ytd-watch-next-secondary-results-renderer.style-scope
 ! Sep 1, 2024 https://www.youtube.com
@@ -29,7 +28,6 @@ www.youtube.com##.ytp-endscreen-next.ytp-button
 www.youtube.com##.ytp-endscreen-previous.ytp-button
 www.youtube.com##.ytp-endscreen-content
 ! Sep 2, 2024 https://www.youtube.com
-www.youtube.com###chat
 www.youtube.com##[tab-title="Community"]
 www.youtube.com##[tab-title="Posts"]
 ! Sep 23, 2024 https://www.youtube.com
@@ -56,4 +54,30 @@ reddit.com##:matches-path(/media?) :root:style(background-color: black !importan
 ! YT Channels - Hide the Shorts tab
 www.youtube.com##[tab-title="Shorts"]
 www.reddit.com##post-bottom-bar
+! YT Homepage and Subscriptions - Hide the Shorts section
+youtube.com##[is-shorts]
+! YT Menu - Hide the Shorts button
+www.youtube.com###guide [title="Shorts"], .ytd-mini-guide-entry-renderer[title="Shorts"]
+! YT Search, Channels and Sidebar or below the player - Hide the Shorts sections
+www.youtube.com##ytd-reel-shelf-renderer
+! YT Subscriptions - Hide Shorts - Grid View
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-grid-video-renderer:has([overlay-style="SHORTS"])
+! YT Subscriptions - Hide Shorts - List View
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer:has([overlay-style="SHORTS"])
+! YT Subscriptions - New Layout - Hide Shorts
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-rich-item-renderer:has([overlay-style="SHORTS"])
+! YT Sidebar - Hide Shorts
+www.youtube.com###related ytd-compact-video-renderer:has([overlay-style="SHORTS"])
+www.reddit.com##:matches-path(/media?) .theme-beta.z-\[4\].fixed.right-0.left-0.top-0.nd\:visible
+! Dec 23, 2024 https://old.reddit.com
+old.reddit.com##.embed-comment
+old.reddit.com##.redesign-beta-optin
+old.reddit.com##.res-floater-belowNavbar
+old.reddit.com##.access-required.reportbtn
+old.reddit.com##.read-next-container
+old.reddit.com##.comment a[href^="https://giphy.com/gifs/"]
+! Dec 30, 2024 https://old.reddit.com
+old.reddit.com##.giftgold
+! Jan 6, 2025 https://chat.reddit.com
+chat.reddit.com##.res-floater-belowNavbar
 
