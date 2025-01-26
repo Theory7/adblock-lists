@@ -11,11 +11,9 @@ youtube.com##.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
 www.youtube.com##[tab-title="Store"]
 youtube.com##ytd-recognition-shelf-renderer
 www.youtube.com##.yt-flexible-actions-view-model-wiz__action:has(button[aria-label="Join this channel"])
-youtube.com##ytd-shelf-renderer:has(span#title.style-scope.ytd-shelf-renderer:has-text(/members[\s-]*only/i))
 youtube.com##ytd-browse[page-subtype="channels"] ytd-grid-video-renderer .badge-style-type-members-only:upward(ytd-grid-video-renderer)
 /annotations_module.js$script,xhr,important,domain=youtube.com
 ! Aug 31, 2024 https://www.youtube.com
-www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:has-text("More from YouTube")
 www.youtube.com##ytd-guide-signin-promo-renderer.ytd-guide-renderer.style-scope
 ! Aug 31, 2024 https://www.youtube.com
 www.youtube.com##.ytp-button.ytp-next-button
@@ -31,28 +29,14 @@ www.youtube.com##.ytp-endscreen-content
 www.youtube.com##[tab-title="Community"]
 www.youtube.com##[tab-title="Posts"]
 ! Sep 23, 2024 https://www.youtube.com
-www.youtube.com##.ytd-item-section-renderer.style-scope > .ytd-shelf-renderer.style-scope:has-text("For You")
 ||www.redditstatic.com/shreddit/en-US/xpromo-nsfw-blocking-modal-desktop-*.js
 ||www.redditstatic.com/shreddit/en-US/icon-nsfw-outline-*.js
 ||www.redditstatic.com/shreddit/en-US/xpromo-nsfw-blocking-modal-*.js
 ||www.redditstatic.com/shreddit/en-US/nsfw-blocking-*.js
 www.reddit.com##xpromo-nsfw-blocking-modal,slot+.prompt 
 www.reddit.com##[style*="blur"]:style(filter:none!important;)
-www.reddit.com##pdp-right-rail
-www.reddit.com###get-app
-www.reddit.com###right-sidebar-container > div.px-md.xs\:px-0
-!www.reddit.com##.block.h-\[210px\].nd\:visible.nd\:overflow-hidden
-www.reddit.com##award-button
-www.reddit.com##button.button.border-md[data-testid="award"]
-!www.reddit.com###expand-user-drawer-button
-! Oct 4, 2024 https://www.reddit.com
-www.reddit.com##reddit-recent-pages
-reddit.com###reddit-trending-searches-partial-container
-!reddit.com##:matches-path(/media?)zoomable-img:style(height: auto !important; margin: auto !important; top: 0 !important; padding: 0 !important;)
-!reddit.com##:matches-path(/media?)img:others()
 ! YT Channels - Hide the Shorts tab
 www.youtube.com##[tab-title="Shorts"]
-www.reddit.com##post-bottom-bar
 ! YT Homepage and Subscriptions - Hide the Shorts section
 youtube.com##[is-shorts]
 ! YT Menu - Hide the Shorts button
@@ -67,16 +51,4 @@ www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer:has
 www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-rich-item-renderer:has([overlay-style="SHORTS"])
 ! YT Sidebar - Hide Shorts
 www.youtube.com###related ytd-compact-video-renderer:has([overlay-style="SHORTS"])
-www.reddit.com##:matches-path(/media?) .theme-beta.z-\[4\].fixed.right-0.left-0.top-0.nd\:visible
-! Dec 23, 2024 https://old.reddit.com
-old.reddit.com##.embed-comment
 old.reddit.com##.redesign-beta-optin
-old.reddit.com##.res-floater-belowNavbar
-old.reddit.com##.access-required.reportbtn
-old.reddit.com##.read-next-container
-old.reddit.com##.comment a[href^="https://giphy.com/gifs/"]
-! Dec 30, 2024 https://old.reddit.com
-old.reddit.com##.giftgold
-! Jan 6, 2025 https://chat.reddit.com
-chat.reddit.com##.res-floater-belowNavbar
-
