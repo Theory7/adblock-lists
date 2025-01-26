@@ -50,7 +50,6 @@ www.reddit.com##reddit-recent-pages
 reddit.com###reddit-trending-searches-partial-container
 reddit.com##:matches-path(/media?)zoomable-img:style(height: auto !important; margin: auto !important; top: 0 !important; padding: 0 !important;)
 reddit.com##:matches-path(/media?)img:others()
-reddit.com##:matches-path(/media?) :root:style(background-color: black !important;)
 ! YT Channels - Hide the Shorts tab
 www.youtube.com##[tab-title="Shorts"]
 www.reddit.com##post-bottom-bar
