@@ -52,3 +52,6 @@ www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-rich-item-renderer
 ! YT Sidebar - Hide Shorts
 www.youtube.com###related ytd-compact-video-renderer:has([overlay-style="SHORTS"])
 old.reddit.com##.redesign-beta-optin
+youtube.com##ytd-shelf-renderer:has(span#title.style-scope.ytd-shelf-renderer:has-text(/members[\s-]*only/i))
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:has-text("More from YouTube")
+www.youtube.com##.ytd-item-section-renderer.style-scope > .ytd-shelf-renderer.style-scope:has-text("For You")
