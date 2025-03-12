@@ -29,12 +29,6 @@ www.youtube.com##.ytp-endscreen-content
 www.youtube.com##[tab-title="Community"]
 www.youtube.com##[tab-title="Posts"]
 ! Sep 23, 2024 https://www.youtube.com
-||www.redditstatic.com/shreddit/en-US/xpromo-nsfw-blocking-modal-desktop-*.js
-||www.redditstatic.com/shreddit/en-US/icon-nsfw-outline-*.js
-||www.redditstatic.com/shreddit/en-US/xpromo-nsfw-blocking-modal-*.js
-||www.redditstatic.com/shreddit/en-US/nsfw-blocking-*.js
-www.reddit.com##xpromo-nsfw-blocking-modal,slot+.prompt 
-www.reddit.com##[style*="blur"]:style(filter:none!important;)
 ! YT Channels - Hide the Shorts tab
 www.youtube.com##[tab-title="Shorts"]
 ! YT Homepage and Subscriptions - Hide the Shorts section
