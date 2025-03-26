@@ -20,7 +20,7 @@ www.youtube.com##.ytp-button.ytp-next-button
 www.youtube.com##.ytp-button.ytp-back-button
 ! Aug 31, 2024 https://www.youtube.com
 www.youtube.com##.yt-related-chip-cloud-renderer.style-scope > .yt-chip-cloud-renderer.style-scope
-www.youtube.com##.ytd-watch-next-secondary-results-renderer.style-scope
+!www.youtube.com##.ytd-watch-next-secondary-results-renderer.style-scope
 ! Sep 1, 2024 https://www.youtube.com
 www.youtube.com##.ytp-endscreen-next.ytp-button
 www.youtube.com##.ytp-endscreen-previous.ytp-button
