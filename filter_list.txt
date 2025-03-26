@@ -50,16 +50,3 @@ youtube.com##ytd-shelf-renderer:has(span#title.style-scope.ytd-shelf-renderer:ha
 www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:has-text("More from YouTube")
 www.youtube.com##.ytd-item-section-renderer.style-scope > .ytd-shelf-renderer.style-scope:has-text("For You")
 
-
-
-! Reddit - Set revealed removing mode
-www.reddit.com##shreddit-blurred-container[mode]:has([slot="revealed"]):remove-attr(mode)
-
-! Reddit - Hide prompt in single post, backdrop overlay
-www.reddit.com##.prompt, .bg-scrim, .overlay, .viewInApp, #blocking-modal, body > [style*="blur(4px)"]
-
-! Remove blur, restore pointer events, etc...
-www.reddit.com##.blurred:style(filter: unset !important; background: unset !important;pointer-events: unset !important;display: unset !important;)
-www.reddit.com##body:style(pointer-events: auto !important; overflow: auto !important;)
-www.reddit.com###nsfw-qr-dialog
-www.reddit.com###get-app
