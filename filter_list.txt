@@ -76,3 +76,9 @@ www.reddit.com##body:style(pointer-events: auto !important; overflow: auto !impo
 
 
 www.reddit.com###get-app
+
+
+ak.sv##div.ads.mb-3:remove()
+ak.sv##div[style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;"]:remove()
+
+||go.ak.sv/watch/*$third-party,script,xmlhttprequest
