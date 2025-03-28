@@ -82,3 +82,11 @@ ak.sv##div.ads.mb-3:remove()
 ak.sv##div[style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;"]:remove()
 
 ||go.ak.sv/watch/*$third-party,script,xmlhttprequest
+
+
+
+
+
+! 2023-09-10 14:07:31 CEST
+ www.reddit.com##body[style*="pointer-events"]:style(pointer-events:auto!important;)
+ www.reddit.com##body[style*="overflow"]:style(overflow:auto!important;)
