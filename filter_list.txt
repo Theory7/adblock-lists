@@ -87,6 +87,5 @@ ak.sv##div[style="position: fixed; inset: 0px; z-index: 2147483647; pointer-even
 
 
 
-! 2023-09-10 14:07:31 CEST
- www.reddit.com##body[style*="pointer-events"]:style(pointer-events:auto!important;)
- www.reddit.com##body[style*="overflow"]:style(overflow:auto!important;)
+! Remove the bottom-sheet promoting the "See Reddit on mobile"
+www.reddit.com##shreddit-async-loader[paint-group=xpromo]:remove()
