@@ -89,3 +89,22 @@ ak.sv##div[style="position: fixed; inset: 0px; z-index: 2147483647; pointer-even
 
 ! Remove the bottom-sheet promoting the "See Reddit on mobile"
 www.reddit.com##shreddit-async-loader[paint-group=xpromo]:remove()
+
+
+www.reddit.com##recent-posts
+www.reddit.com##reddit-recent-pages
+
+reddit.com##+js(set-local-storage-item, recent-searches-store, $remove$)
+
+
+reddit.com###reddit-trending-searches-partial-container
+
+
+reddit.com##.DualPartInterstitial
+
+reddit.com###xpromo-bottom-sheet
+
+reddit.com###reddit-recent-searches-partial-container
+
+
+
