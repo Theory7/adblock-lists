@@ -104,6 +104,13 @@ reddit.com##.DualPartInterstitial
 
 reddit.com###xpromo-bottom-sheet
 
+
+reddit.com##:matches-path(/media?) :root:style(background-color: black !important;)
+reddit.com##:matches-path(/media?)zoomable-img:style(height: auto !important; margin: auto !important; top: 0 !important; padding: 0 !important;)
+reddit.com##:matches-path(/media?)img:others()
+www.reddit.com##post-bottom-bar
+www.reddit.com##:matches-path(/media?) .theme-beta.z-\[4\].fixed.right-0.left-0.top-0.nd\:visible
+
 reddit.com###reddit-recent-searches-partial-container
 
 
