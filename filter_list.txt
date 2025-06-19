@@ -115,3 +115,5 @@ www.reddit.com##.flex-row.flex.bg-neutral-background.items-center.justify-betwee
 
 ! for gemini
 gemini.google.com##.advanced-upsell
+gemini.google.com##.upgrade-container.ng-star-inserted
+gemini.google.com##.mdc-button.gds-upsell-button
