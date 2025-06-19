@@ -124,3 +124,5 @@ chatgpt.com###page-header div:has(> button svg > path[d^="M17.665 10C17.665 10.6
 chatgpt.com###stage-slideover-sidebar nav > div:has(svg > path[d^="M8.44824 8.218C8.52492 7.98941 8.84816"])
 ! for "Upgrade plan" in the menu
 chatgpt.com##div[data-radix-popper-content-wrapper] > div[role="menu"] div[role="menuitem"]:has(svg > path[d^="M8.44824 8.218C8.52492 7.98941 8.84816 7.98938 8.9248 8.218L9.28809"])
+! for "get Plus"
+chatgpt.com##div.flex.w-full.items-start div.text-token-text-primary:has-text(/^Unlock more with Plus\s*$/):upward(.flex.w-full.items-start.border)
