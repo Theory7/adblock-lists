@@ -113,5 +113,5 @@ reddit.com###reddit-recent-searches-partial-container
 www.reddit.com##.flex-row.flex.bg-neutral-background.items-center.justify-between.w-full.fixed.bottom-0.px-md.m\:px-lg.pb-\[env\(safe-area-inset-bottom\)\].h-3xl.box-border.border-neutral-border-weak.border-solid.border-r-0.border-l-0.border-b-0.border-t-sm
 
 
-
+! for gemini
 gemini.google.com##.advanced-upsell
