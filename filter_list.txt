@@ -117,3 +117,8 @@ www.reddit.com##.flex-row.flex.bg-neutral-background.items-center.justify-betwee
 gemini.google.com##.advanced-upsell
 gemini.google.com##.upgrade-container.ng-star-inserted
 gemini.google.com##.mdc-button.gds-upsell-button
+
+! for "Get Plus"
+chatgpt.com###page-header div:has(> button svg > path[d^="M17.665 10C17.665 10.6877 17.1785 11.2454 16.5488 11.3945L16.4219"])
+! for "Upgrade plan"
+chatgpt.com###stage-slideover-sidebar nav > div:has(svg > path[d^="M8.44824 8.218C8.52492 7.98941 8.84816"])
