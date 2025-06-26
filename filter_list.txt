@@ -126,3 +126,9 @@ chatgpt.com###stage-slideover-sidebar nav > div:has(svg > path[d^="M8.44824 8.21
 chatgpt.com##div[data-radix-popper-content-wrapper] > div[role="menu"] div[role="menuitem"]:has(svg > path[d^="M8.44824 8.218C8.52492 7.98941 8.84816 7.98938 8.9248 8.218L9.28809"])
 ! for "get Plus"
 chatgpt.com##div.flex.w-full.items-start div.text-token-text-primary:has-text(/^Unlock more with Plus\s*$/):upward(.flex.w-full.items-start.border)
+
+
+
+luckypatchers.com##iframe[style*="position: fixed"][style*="background"]
+
+luckypatchers.com##div[style*="position: fixed"]:has-text(Close)
