@@ -132,3 +132,12 @@ chatgpt.com##div.flex.w-full.items-start div.text-token-text-primary:has-text(/^
 luckypatchers.com##iframe[style*="position: fixed"][style*="background"]
 
 luckypatchers.com##div[style*="position: fixed"]:has-text(Close)
+
+
+
+
+
+! Jun 22, 2025 https://www.youtube.com - Hides the white toast "Experiencing Interruptions" banner
+
+www.youtube.com##.paper-toast-open.yt-notification-action-renderer.style-scope.toast-button 
+www.youtube.com##.yt-notification-action-renderer.style-scope.toast-button
