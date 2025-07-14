@@ -28,23 +28,6 @@ www.youtube.com##.ytp-endscreen-content
 ! Sep 2, 2024 https://www.youtube.com
 www.youtube.com##[tab-title="Community"]
 www.youtube.com##[tab-title="Posts"]
-! Sep 23, 2024 https://www.youtube.com
-! YT Channels - Hide the Shorts tab
-www.youtube.com##[tab-title="Shorts"]
-! YT Homepage and Subscriptions - Hide the Shorts section
-youtube.com##[is-shorts]
-! YT Menu - Hide the Shorts button
-www.youtube.com###guide [title="Shorts"], .ytd-mini-guide-entry-renderer[title="Shorts"]
-! YT Search, Channels and Sidebar or below the player - Hide the Shorts sections
-www.youtube.com##ytd-reel-shelf-renderer
-! YT Subscriptions - Hide Shorts - Grid View
-www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-grid-video-renderer:has([overlay-style="SHORTS"])
-! YT Subscriptions - Hide Shorts - List View
-www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer:has([overlay-style="SHORTS"])
-! YT Subscriptions - New Layout - Hide Shorts
-www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-rich-item-renderer:has([overlay-style="SHORTS"])
-! YT Sidebar - Hide Shorts
-www.youtube.com###related ytd-compact-video-renderer:has([overlay-style="SHORTS"])
 old.reddit.com##.redesign-beta-optin
 youtube.com##ytd-shelf-renderer:has(span#title.style-scope.ytd-shelf-renderer:has-text(/members[\s-]*only/i))
 www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:has-text("More from YouTube")
