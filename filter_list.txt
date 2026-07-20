@@ -120,6 +120,80 @@ luckypatchers.com##div[style*="position: fixed"]:has-text(Close)
 
 
 
+
+
+
+
+
+
+
+
+
+
+www.reddit.com##details:has(summary[aria-controls="RESOURCES"])
+www.reddit.com##details:has(summary[aria-controls="RECENT"])
+www.reddit.com##details:has(summary[aria-controls="games_section"])
+reddit.com##li[role="presentation"]:has(a[href*="reddit-pro"]):has-text(Try Reddit Pro)
+reddit.com##li[role="presentation"]:has(a[href*="ads.reddit.com"]):has-text(Advertise on Reddit)
+reddit.com##li[role="presentation"]:has(a[href="/premium"]):has-text(Premium)
+reddit.com##li[role="presentation"]:has(a[href="/earn"]):has-text(Earn cash on Reddit)
+reddit.com##achievements-entrypoint
+reddit.com##li[role="presentation"]:has(a[href*="/achievements"]):has-text(Achievements)
+reddit.com##li.brand-affiliate-menu-button
+reddit.com###post-overflow-brandAffiliate
+reddit.com##award-button
+! gmail "upgrade" button
+mail.google.com##[data-pep-id="global-pep-gmail"]:has( > [data-action-behavior*="utm_campaign=upgrade_ogb"] )
+! docs.google - Menu - Upgrade Button
+docs.google.com###workspace-onegoogle-pep-container
+
+
+gemini.google.com##g1-dynamic-upsell-button
+
+chat.deepseek.com##.ds-dropdown-menu div:has-text(/download mobile app/i)
+
+
+grok.com##div.upsell-small
+
+youtube.com##ytd-shelf-renderer:has-text(Members-only videos)
+
+youtube.com##button[aria-label="Join this channel"]
+
+youtube.com##button[aria-label="Members only"][role="tab"]
+
+
+grok.com##div[role="button"]:has(svg path[id="mark"])
+
+claude.ai##div#main-content div:has(> span > a[href="/upgrade"])
+
+claude.ai##div.relative.overflow-visible:has(> div.downloads-link)
+
+chatgpt.com##button.button-glimmer-cta
+
+chatgpt.com##button[data-trailing-button][aria-label="Upgrade"]
+
+copilot.microsoft.com##div[role="button"][title="Upgrade"][aria-label="Upgrade"]
+
+youtube.com###donation-shelf
+
+youtube.com##badge-shape.ytBadgeShapeCommerce[aria-label="Fundraiser"]
+
+youtube.com##yt-badge-view-model:has(badge-shape.ytBadgeShapeCommerce):has-text(/fundraiser/i)
+
+youtube.com##ytd-menu-service-item-download-renderer
+
+youtube.com##yt-download-list-item-view-model
+
+grok.com##div[role="button"]:has-text(Go Super)
+
+reddit.com##li#post-overflow-award
+
+grok.com##div[role="button"]:has(svg[viewBox="0 0 124 32"])
+
+google.com##div:has-text(Choose Chrome, the browser built by Google)
+
+
+
 ! Jun 22, 2025 https://www.youtube.com - Hides the white toast "Experiencing Interruptions" banner
 
 www.youtube.com##.paper-toast-open.yt-notification-action-renderer.style-scope.toast-button 
