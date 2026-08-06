@@ -193,7 +193,7 @@ grok.com##div[role="button"]:has(svg[viewBox="0 0 124 32"])
 google.com##div:has-text(Choose Chrome, the browser built by Google)
 
 
-
+reddit.com##p:has-text(Gold earned):upward(div)
 ! Jun 22, 2025 https://www.youtube.com - Hides the white toast "Experiencing Interruptions" banner
 
 www.youtube.com##.paper-toast-open.yt-notification-action-renderer.style-scope.toast-button 
