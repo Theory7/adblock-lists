@@ -198,3 +198,11 @@ reddit.com##p:has-text(Gold earned):upward(div)
 
 www.youtube.com##.paper-toast-open.yt-notification-action-renderer.style-scope.toast-button 
 www.youtube.com##.yt-notification-action-renderer.style-scope.toast-button
+
+
+
+
+
+reddit.com##div[class*="w-[251px]"]:has(img[src*="snoo_map"])
+
+reddit.com##faceplate-tracker[data-faceplate-tracking-context*="Get Payments Help"]
