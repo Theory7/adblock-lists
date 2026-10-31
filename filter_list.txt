@@ -36,8 +36,7 @@ www.youtube.com##.ytd-item-section-renderer.style-scope > .ytd-shelf-renderer.st
 
 
 
-! Reddit - Remove scroll/click block
-www.reddit.com##body:style(pointer-events: auto !important; overflow: auto !important;)
+
 
 
 www.reddit.com###get-app
@@ -52,8 +51,7 @@ ak.sv##div[style="position: fixed; inset: 0px; z-index: 2147483647; pointer-even
 
 
 
-! Remove the bottom-sheet promoting the "See Reddit on mobile"
-www.reddit.com##shreddit-async-loader[paint-group=xpromo]:remove()
+
 
 
 www.reddit.com##recent-posts
@@ -67,7 +65,6 @@ reddit.com###reddit-trending-searches-partial-container
 
 reddit.com##.DualPartInterstitial
 
-reddit.com###xpromo-bottom-sheet
 
 
 
