@@ -28,7 +28,6 @@ www.youtube.com##.ytp-endscreen-content
 ! Sep 2, 2024 https://www.youtube.com
 www.youtube.com##[tab-title="Community"]
 www.youtube.com##[tab-title="Posts"]
-old.reddit.com##.redesign-beta-optin
 youtube.com##ytd-shelf-renderer:has(span#title.style-scope.ytd-shelf-renderer:has-text(/members[\s-]*only/i))
 www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:has-text("More from YouTube")
 www.youtube.com##.ytd-item-section-renderer.style-scope > .ytd-shelf-renderer.style-scope:has-text("For You")
@@ -39,7 +38,6 @@ www.youtube.com##.ytd-item-section-renderer.style-scope > .ytd-shelf-renderer.st
 
 
 
-www.reddit.com###get-app
 
 
 ak.sv##div.ads.mb-3:remove()
@@ -54,25 +52,6 @@ ak.sv##div[style="position: fixed; inset: 0px; z-index: 2147483647; pointer-even
 
 
 
-www.reddit.com##recent-posts
-www.reddit.com##reddit-recent-pages
-
-reddit.com##+js(set-local-storage-item, recent-searches-store, $remove$)
-
-
-reddit.com###reddit-trending-searches-partial-container
-
-
-reddit.com##.DualPartInterstitial
-
-
-
-
-www.reddit.com##post-bottom-bar
-
-reddit.com###reddit-recent-searches-partial-container
-
-www.reddit.com##.flex-row.flex.bg-neutral-background.items-center.justify-between.w-full.fixed.bottom-0.px-md.m\:px-lg.pb-\[env\(safe-area-inset-bottom\)\].h-3xl.box-border.border-neutral-border-weak.border-solid.border-r-0.border-l-0.border-b-0.border-t-sm
 
 
 ! for gemini
@@ -109,18 +88,7 @@ luckypatchers.com##div[style*="position: fixed"]:has-text(Close)
 
 
 
-www.reddit.com##details:has(summary[aria-controls="RESOURCES"])
-www.reddit.com##details:has(summary[aria-controls="RECENT"])
-www.reddit.com##details:has(summary[aria-controls="games_section"])
-reddit.com##li[role="presentation"]:has(a[href*="reddit-pro"]):has-text(Try Reddit Pro)
-reddit.com##li[role="presentation"]:has(a[href*="ads.reddit.com"]):has-text(Advertise on Reddit)
-reddit.com##li[role="presentation"]:has(a[href="/premium"]):has-text(Premium)
-reddit.com##li[role="presentation"]:has(a[href="/earn"]):has-text(Earn cash on Reddit)
-reddit.com##achievements-entrypoint
-reddit.com##li[role="presentation"]:has(a[href*="/achievements"]):has-text(Achievements)
-reddit.com##li.brand-affiliate-menu-button
-reddit.com###post-overflow-brandAffiliate
-reddit.com##award-button
+
 ! gmail "upgrade" button
 mail.google.com##[data-pep-id="global-pep-gmail"]:has( > [data-action-behavior*="utm_campaign=upgrade_ogb"] )
 ! docs.google - Menu - Upgrade Button
@@ -165,23 +133,13 @@ youtube.com##yt-download-list-item-view-model
 
 grok.com##div[role="button"]:has-text(Go Super)
 
-reddit.com##li#post-overflow-award
 
 grok.com##div[role="button"]:has(svg[viewBox="0 0 124 32"])
 
 google.com##div:has-text(Choose Chrome, the browser built by Google)
 
 
-reddit.com##p:has-text(Gold earned):upward(div)
 ! Jun 22, 2025 https://www.youtube.com - Hides the white toast "Experiencing Interruptions" banner
 
 www.youtube.com##.paper-toast-open.yt-notification-action-renderer.style-scope.toast-button 
 www.youtube.com##.yt-notification-action-renderer.style-scope.toast-button
-
-
-
-
-
-reddit.com##div[class*="w-[251px]"]:has(img[src*="snoo_map"])
-
-reddit.com##faceplate-tracker[data-faceplate-tracking-context*="Get Payments Help"]
