@@ -32,94 +32,11 @@ youtube.com##ytd-shelf-renderer:has(span#title.style-scope.ytd-shelf-renderer:ha
 www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:has-text("More from YouTube")
 www.youtube.com##.ytd-item-section-renderer.style-scope > .ytd-shelf-renderer.style-scope:has-text("For You")
 
-
-
-
-
-
-
-
-
-ak.sv##div.ads.mb-3:remove()
-ak.sv##div[style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;"]:remove()
-
-||go.ak.sv/watch/*$third-party,script,xmlhttprequest
-
-
-
-
-
-
-
-
-
-
-! for gemini
-gemini.google.com##.advanced-upsell
-gemini.google.com##.upgrade-container.ng-star-inserted
-gemini.google.com##.mdc-button.gds-upsell-button
-
-! for "Get Plus"
-chatgpt.com###page-header div:has(> button svg > path[d^="M17.665 10C17.665 10.6877 17.1785 11.2454 16.5488 11.3945L16.4219"])
-! for "Upgrade plan"
-chatgpt.com###stage-slideover-sidebar nav > div:has(svg > path[d^="M8.44824 8.218C8.52492 7.98941 8.84816"])
-! for "Upgrade plan" in the menu
-chatgpt.com##div[data-radix-popper-content-wrapper] > div[role="menu"] div[role="menuitem"]:has(svg > path[d^="M8.44824 8.218C8.52492 7.98941 8.84816 7.98938 8.9248 8.218L9.28809"])
-! for "get Plus"
-chatgpt.com##div.flex.w-full.items-start div.text-token-text-primary:has-text(/^Unlock more with Plus\s*$/):upward(.flex.w-full.items-start.border)
-
-
-
-luckypatchers.com##iframe[style*="position: fixed"][style*="background"]
-
-luckypatchers.com##div[style*="position: fixed"]:has-text(Close)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-! gmail "upgrade" button
-mail.google.com##[data-pep-id="global-pep-gmail"]:has( > [data-action-behavior*="utm_campaign=upgrade_ogb"] )
-! docs.google - Menu - Upgrade Button
-docs.google.com###workspace-onegoogle-pep-container
-
-
-gemini.google.com##g1-dynamic-upsell-button
-
-chat.deepseek.com##.ds-dropdown-menu div:has-text(/download mobile app/i)
-
-
-grok.com##div.upsell-small
-
 youtube.com##ytd-shelf-renderer:has-text(Members-only videos)
 
 youtube.com##button[aria-label="Join this channel"]
 
 youtube.com##button[aria-label="Members only"][role="tab"]
-
-
-grok.com##div[role="button"]:has(svg path[id="mark"])
-
-claude.ai##div#main-content div:has(> span > a[href="/upgrade"])
-
-claude.ai##div.relative.overflow-visible:has(> div.downloads-link)
-
-chatgpt.com##button.button-glimmer-cta
-
-chatgpt.com##button[data-trailing-button][aria-label="Upgrade"]
-
-copilot.microsoft.com##div[role="button"][title="Upgrade"][aria-label="Upgrade"]
 
 youtube.com###donation-shelf
 
@@ -131,15 +48,42 @@ youtube.com##ytd-menu-service-item-download-renderer
 
 youtube.com##yt-download-list-item-view-model
 
-grok.com##div[role="button"]:has-text(Go Super)
+www.youtube.com##yt-tab-shape[tab-title="Shorts"]
 
 
-grok.com##div[role="button"]:has(svg[viewBox="0 0 124 32"])
+reddit.com##faceplate-tracker[data-faceplate-tracking-context*="Get Payments Help"]
 
-google.com##div:has-text(Choose Chrome, the browser built by Google)
+www.reddit.com##details:has(summary[aria-controls="RESOURCES"])
+www.reddit.com##details:has(summary[aria-controls="RECENT"])
+www.reddit.com##details:has(summary[aria-controls="games_section"])
+reddit.com##li[role="presentation"]:has(a[href*="reddit-pro"]):has-text(Try Reddit Pro)
+reddit.com##li[role="presentation"]:has(a[href*="ads.reddit.com"]):has-text(Advertise on Reddit)
+reddit.com##li[role="presentation"]:has(a[href="/premium"]):has-text(Premium)
+reddit.com##li[role="presentation"]:has(a[href="/earn"]):has-text(Earn cash on Reddit)
+reddit.com##achievements-entrypoint
+reddit.com##li[role="presentation"]:has(a[href*="/achievements"]):has-text(Achievements)
+reddit.com##li.brand-affiliate-menu-button
+reddit.com###post-overflow-brandAffiliate
+
+www.reddit.com##recent-posts
+www.reddit.com##reddit-recent-pages
+
+reddit.com##+js(set-local-storage-item, recent-searches-store, $remove$)
 
 
-! Jun 22, 2025 https://www.youtube.com - Hides the white toast "Experiencing Interruptions" banner
+reddit.com###reddit-trending-searches-partial-container
 
-www.youtube.com##.paper-toast-open.yt-notification-action-renderer.style-scope.toast-button 
-www.youtube.com##.yt-notification-action-renderer.style-scope.toast-button
+
+reddit.com##.DualPartInterstitial
+
+
+
+
+www.reddit.com##post-bottom-bar
+
+reddit.com###reddit-recent-searches-partial-container
+
+www.reddit.com##.flex-row.flex.bg-neutral-background.items-center.justify-between.w-full.fixed.bottom-0.px-md.m\:px-lg.pb-\[env\(safe-area-inset-bottom\)\].h-3xl.box-border.border-neutral-border-weak.border-solid.border-r-0.border-l-0.border-b-0.border-t-sm
+
+www.reddit.com###get-app
+
